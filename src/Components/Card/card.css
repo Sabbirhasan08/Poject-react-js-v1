@@ -1,0 +1,28 @@
+.card-padding{
+    margin-top: 15vh;
+}
+.card-area .card{
+    border: 3px solid rgb(219, 219, 219);
+    border-radius: 3%;
+}
+a.btn.btn-primary {
+    display: flex;
+    border: none;
+    border-radius: initial;
+    width: 154px;
+    position: absolute;
+    margin-top: -52px;
+}
+.card-itam {
+    margin-bottom: 20px;
+
+}
+.card-itam-1 {
+    margin-bottom: 20px;
+
+}
+
+.card-tt{
+    padding-top: 20px;
+}
+

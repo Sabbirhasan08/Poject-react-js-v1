@@ -1,0 +1,87 @@
+
+.herosection{
+    background-image: url('../../image/butterflies-1127666_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-color: rgb(245, 147, 0);
+
+}
+.hero-padding{
+    background-color: rgba(35, 202, 207, 0.596);
+}
+.hero-item{
+    text-align: center;
+}
+.hero-item h1{
+    color: #fff;
+    font-size: 100px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.hero-item > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+
+}
+
+.hero-btn{
+    margin-top: 32px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25%;
+}
+.btns{
+    background: none;
+    border: solid rgb(255, 255, 255) 2px;
+    padding: 5px 20px;
+    margin: 10px;
+    transition: all 0.3s ease-out;
+}
+.it{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    
+}
+.btns:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #da1a1a;
+    transition: 250ms;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-item h1{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hero-item h1{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 100px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .hero-item h1{
+        color: #fff;
+        font-size: 30px;
+        margin-top: 100px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
